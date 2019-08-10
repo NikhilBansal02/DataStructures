@@ -1,12 +1,14 @@
-package linkedlist;
+package doublylinkedlist;
 
 public  class Node{
 	
-	 public int data;
-	 public	Node next;
+	  Node prev;
+	  int data;
+	  Node next;
 	
-	public Node(int data){
+	 Node(int data){
 		
+		this.prev = null;
 		this.data = data;
 		this.next = null;
 	}
