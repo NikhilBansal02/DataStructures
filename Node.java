@@ -1,15 +1,15 @@
-package doublylinkedlist;
+package tree;
 
-public  class Node{
+public class Node {
 	
-	  Node prev;
-	  int data;
-	  Node next;
+	int data;
+	Node left;
+	Node right;
 	
-	 Node(int data){
-		
-		this.prev = null;
+	Node(int data){
 		this.data = data;
-		this.next = null;
+		left = null;
+		right = null;
 	}
+
 }
