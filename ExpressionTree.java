@@ -13,7 +13,7 @@
 
 /* The below program parses the POSTFIX notation and create the expression tree for it.
  * When tree is traversed with INORDER manner it produces corresponding infix notation.
- * 
+ * TO CONVERT BACK EXPRESSION TREE BACK TO POSTFIX NOTATION READ THE TREE IN POSTORDER TRAVERSAL. That will to the stuff...!!!
  */
 package tree;
 
